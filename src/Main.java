@@ -4,14 +4,14 @@ public class Main {
         CreditPaymentService service = new CreditPaymentService();
 
 
-        double platezPeriod12 = service.calculate(12, 1_000_000, 9.99);
-        System.out.println(Math.round(platezPeriod12));
+        double paymentPeriod12 = service.calculate(12, 1_000_000, 9.99);
+        System.out.println(Math.round(paymentPeriod12));
 
-        double platezPeriod24 = service.calculate(24, 1_000_000, 9.99);
-        System.out.println(Math.round(platezPeriod24));
+        double paymentPeriod24 = service.calculate(24, 1_000_000, 9.99);
+        System.out.println(Math.round(paymentPeriod24));
 
-        double platezPeriod36 = service.calculate(36, 1_000_000, 9.99);
-        System.out.println(Math.round(platezPeriod36));
+        double paymentPeriod36 = service.calculate(36, 1_000_000, 9.99);
+        System.out.println(Math.round(paymentPeriod36));
     }
 
 }
