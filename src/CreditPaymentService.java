@@ -2,7 +2,7 @@ public class CreditPaymentService {
     public double calculate(int period, int summ, double percent) {
 
         //процентная ставка по кредиту в месяц
-        double monthPercent = percent / period / 100;
+        double monthPercent = percent / 12 / 100;
 
         //коэффициент аннуитента
 
